@@ -8,17 +8,13 @@
     }
     
     /* What does this work for? */
-    
     /*
     div.navbar {
       display: flex;
       justify-content: space-between;
-      padding: 1% 5%;
-      width: 50vw;
-      background: burlywood;
+      margin: 0 5% 5%;
     }
     */
-    
     div.logo {
       display: flex;
       font-size: 25px;
@@ -106,6 +102,7 @@
     div.main-content img {
       width: 400px;
       border-radius: 3px;
+      background: white;
     }
     
     /*
@@ -201,6 +198,7 @@
     line-height: 2;
     padding: 30% 5% 5% 5%;
     background-color: white;
+
  } 
  
  div.sub-content.heading {
@@ -217,6 +215,7 @@
     width: 60%;
     font-size: 3.5rem;
     line-height: 60px;
+    padding: 20px 0;
 } 
 
 .heading button {
@@ -234,22 +233,29 @@ div.sub-content img {
 
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+div.footer {
     font-weight: 600;
-      padding: 50% 5% 5% 5%;
+    margin: auto;
+    padding: 10% 5% 5% 5%;
 }
- footer h2 {
-    text-align: center;
-    padding: 50% 5% 5% 5%;    
+
+ div.footer h2 {
+  text-align: center;
 
 }
+
+.images {
+  display: block;
+
+  margin: 0 auto;
+
+}
+
+  
 
 
 :root {
-    --section-width: 1200px;
+    
     --section-padding: 4rem;
 }
     

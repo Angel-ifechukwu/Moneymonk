@@ -1,0 +1,316 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: content-box;
+      font-family: Inter, cursive;
+    }
+    
+    /* What does this work for? */
+    /*
+    div.navbar {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 5% 5%;
+    }
+    */
+    div.logo {
+      display: flex;
+      font-size: 25px;
+      color: #3375bb;
+      margin-left: 5px;
+      height: 40px;
+      background: white;
+     }
+      /* it suuposed to be div.nav-links not div.navlinks */
+    div.nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5% 5%;
+      max-width: 100%;
+    }
+    
+    ul {
+      display: flex;
+      padding-right: 5%;
+      list-style: none;
+    }
+    
+    li a {
+      padding: 0 20px;
+      text-decoration: none;
+      color: black;
+    }
+    
+    li a:hover {
+      color: white;
+      background: #33629a;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    
+    /*
+    li {
+      padding-left: 20px;
+    }
+    
+    li a {
+      text-decoration: none;
+      color: black;
+      padding: 0;
+    }
+    
+    ul 
+    
+    */
+    
+    div.main-content {
+        display: flex;
+      align-items: center;
+      line-height: 2;
+      padding: 10% 5% 5% 5%;
+    }
+    
+    div.main-content.heading {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .heading p {
+      padding: 20px 0;
+      width: 60%;
+      
+    }
+    
+    .heading h1 {
+      width: 60%;
+      font-size: 3.5rem;
+      line-height: 60px;
+    }
+    
+    .heading button {
+      background: #33629a;
+      color: white;
+      border-radius: 5px;
+      font-size: 500;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    
+    div.main-content img {
+      width: 400px;
+      border-radius: 3px;
+      background: white;
+    }
+    
+    /*
+    div.main-content heading h1 {
+      font-size: 300;
+      margin: 80px 20px 40px 100px;
+      height: 250px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 600px;
+      color: #1a1a1a;
+    }
+    
+    div.main-content heading p {
+      text-align: left;
+      padding-top: 0.7rem;
+      color: black;
+      font-size: 800;
+      font-weight: 900px;
+      letter-spacing: 2px;
+    }
+    
+    div.main-content img {
+      background: white;
+      height: 250px;
+      width: 300px;
+      border-radius: 3px;
+    }
+    
+    div.main-content button {
+      background: #33629a;
+      border-radius: 5px;
+      font-size: 500;
+      padding: 10px;
+    }
+    */
+    
+    div.feature-box {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 10% 5% 5% 5%;
+    }
+    div.feature-box  h5{
+        padding: 10% 5% 5% 5%;    
+    }
+
+
+    div.box-1 {
+      background: #dce4ee;
+      height: 275px;
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    div.box-1 img {
+        width: 150px;
+
+    }
+    
+    div.box-2 {
+        background: #dce4ee;
+      height: 275px;
+      width: 250px;
+      border-radius: 10px;
+      margin: 0 5%;
+    }
+
+    div.box-2 img {
+        width: 135px;
+      background: #dce4ee;
+    }
+    
+    div.box-3 {
+      background: #dce4ee;
+      height: 275px;
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    div.box-3 img {
+        width: 135px;
+      background: #dce4ee;
+
+        
+    }
+
+ div.sub-content {
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    padding: 30% 5% 5% 5%;
+    background-color: white;
+
+ } 
+ 
+ div.sub-content.heading {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .heading p {
+     padding: 20px 0;
+     width: 60%;
+ }
+
+.heading h5 {
+    width: 60%;
+    font-size: 3.5rem;
+    line-height: 60px;
+    padding: 20px 0;
+} 
+
+.heading button {
+    background: #33629a;
+    color: white;
+    border-radius: 5px;
+    font-size: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+div.sub-content img {
+    width: 300px;
+
+
+}
+
+div.footer {
+    font-weight: 600;
+    margin: auto;
+    padding: 10% 5% 5% 5%;
+}
+
+ div.footer h2 {
+  text-align: center;
+
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+
+}
+
+  
+
+
+:root {
+    
+    --section-padding: 4rem;
+}
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

@@ -18,7 +18,7 @@
     div.logo {
       display: flex;
       font-size: 25px;
-      color: #3375bb;
+      color: navy;
       margin-left: 5px;
       height: 40px;
       background: white;
@@ -28,7 +28,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 5% 5%;
+      padding: 1% 1%;
       max-width: 100%;
     }
     
@@ -46,7 +46,7 @@
     
     li a:hover {
       color: white;
-      background: #33629a;
+      background: navy;
       padding: 10px 20px;
       border-radius: 5px;
     }
@@ -91,8 +91,9 @@
     }
     
     .heading button {
-      background: #33629a;
+      background: navy ;
       color: white;
+      outline: none;
       border-radius: 5px;
       font-size: 500;
       padding: 10px 20px;
@@ -196,7 +197,7 @@
     display: flex;
     align-items: center;
     line-height: 2;
-    padding: 30% 5% 5% 5%;
+    padding: 10% 5% 5% 5%;
     background-color: white;
 
  } 
@@ -219,7 +220,7 @@
 } 
 
 .heading button {
-    background: #33629a;
+    background:navy;
     color: white;
     border-radius: 5px;
     font-size: 500;
@@ -250,10 +251,16 @@ div.footer {
 
 }
 
+
+
+
+@media screen and(max-width: 920px) {
+  .nav-links {
+    display: none;
+
+ }
+  }
   
-
-
-:root {
     
     --section-padding: 4rem;
 }

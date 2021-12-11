@@ -1,10 +1,13 @@
- @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap');
+   
+
     
     * {
       margin: 0;
       padding: 0;
       box-sizing: content-box;
       font-family: Inter, cursive;
+      background
     }
     
     /* What does this work for? */
@@ -256,7 +259,7 @@ div.footer {
 
 @media screen and(max-width: 920px) {
   .nav-links {
-    display: none;
+    display: column;
 
  }
   }
